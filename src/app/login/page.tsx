@@ -1,6 +1,7 @@
 "use client";
 
 import { Suspense, useActionState } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { sendMagicLink, type LoginState } from "./actions";
 
@@ -80,6 +81,13 @@ export default function LoginPage() {
                 : "로그인 링크 받기"}
           </button>
         </form>
+
+        <Link
+          href="/login/admin"
+          className="mt-3 block text-center text-[11px] text-ink-muted hover:underline"
+        >
+          관리자 로그인
+        </Link>
       </div>
     </div>
   );
