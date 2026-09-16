@@ -33,9 +33,27 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# 계정 생성 시 만들어지는 임시 비밀번호 파일 — 절대 커밋하지 않는다
+credentials-*.csv
+
+# 사내 대외비 문서 (PRD 7번 공개등급 기준) — 공개 저장소에는 올리지 않는다
+PRD.md
+CLAUDE.md
+
+# bkit 플러그인 내부 운영 로그·상태 (프로젝트 코드와 무관)
+.bkit/
+
+# Supabase CLI 로컬 캐시
+supabase/.temp/
+
+# 삭제 대기 중인 파일 — 사용자가 직접 확인 후 삭제 (커밋 대상 아님)
+trash-can/
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
