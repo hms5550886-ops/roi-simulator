@@ -37,7 +37,7 @@ yarn-error.log*
 credentials-*.csv
 
 # 사내 대외비 문서 (PRD 7번 공개등급 기준) — 공개 저장소에는 올리지 않는다
-PRD.md
+# PRD.md는 사용자 결정으로 공개 저장소에 포함하기로 함 (2026-09-17)
 CLAUDE.md
 
 # bkit 플러그인 내부 운영 로그·상태 (프로젝트 코드와 무관)
